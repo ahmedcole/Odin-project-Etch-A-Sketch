@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Etch-A-Sketch</title>
+  </head>
+  <body>
+    <h1>Etch-A-Sketch</h1>
+
+    <div class="board">
+      <div class="controls">
+        <button class="new_grid_btn btn">Create New grid</button>
+        <div class="color-container">
+          <label for="pick-color">Pick Color</label>
+          <input type="color" id="pick-color" class="color-picker" />
+        </div>
+        <button class="btn random-btn">Random Color Generate</button>
+        <div class="color-generated"></div>
+      </div>
+      <div class="container"></div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
